@@ -13,7 +13,7 @@ app.use(function (req, res, next) {
   next();
 });
 
-const token = '2f24f3249a2bc57105510c6440680ee9fb74fe2fca06ce1edc697c07bdced066';
+const token = '75875f525ff4d92213785d61b6bc803bf8f2d1338700b9b6d6786202e5e18bf8';
 const collectionId = '68c998a2e63f54fbcc6220c7';
 app.post('/order', async (req, res) => {
   const formData = req.body;
